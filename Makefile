@@ -12,6 +12,13 @@ test:
 coverage:
 	env PYTHONPATH=. pytest --cov=src test --cov-branch
 
+.PHONY: coverage-report
+coverage-report:
+	env PYTHONPATH=. pytest --cov=src test --cov-branch --cov-report=html
+	clear
+	@echo "Click http://localhost:8000 to go to report (hit ctrl-c to exit)"
+	@python -m http.server --directory htmlcov
+
 .PHONY: clean
 clean:
 	find . -name \*.pyc -type f -delete
