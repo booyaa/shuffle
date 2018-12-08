@@ -10,7 +10,7 @@ test:
 
 .PHONY: coverage
 coverage:
-	env PYTHONPATH=. pytest --cov=test/
+	env PYTHONPATH=. pytest --cov=src test --cov-branch
 
 .PHONY: clean
 clean:
