@@ -29,3 +29,6 @@ jobs:
       - run:
           name: run coverage
           command: pipenv run make coverage
+      - run:
+          name: update coveralls
+          command: pipenv run coveralls
