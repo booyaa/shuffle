@@ -113,11 +113,11 @@
         },
         "coveralls": {
             "hashes": [
-                "sha256:172fb79c5f61c6ede60554f2cac46deff6d64ee735991fb2124fb414e188bdb4",
-                "sha256:9b3236e086627340bf2c95f89f757d093cbed43d17179d3f4fb568c347e7d29a"
+                "sha256:15a987d9df877fff44cd81948c5806ffb6eafb757b3443f737888358e96156ee",
+                "sha256:aedfcc5296b788ebaf8ace8029376e5f102f67c53d1373f2e821515c15b36527"
             ],
             "index": "pypi",
-            "version": "==3.1.0"
+            "version": "==3.2.0"
         },
         "docopt": {
             "hashes": [
